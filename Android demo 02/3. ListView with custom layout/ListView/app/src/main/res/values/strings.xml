@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="phone_name">Phone name here...</string>
+    <string name="sample_text">Sample text here...</string>
+    <string name="phone_name2">Phone name here</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit.</string>
+    <string name="back_btn">BACK</string>
+
+</resources>
