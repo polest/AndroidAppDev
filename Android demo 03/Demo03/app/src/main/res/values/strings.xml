@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Demo03</string>
+
+    <string name="action_video">Video</string>
+    <string name="action_music">Music</string>
+    <string name="action_quit">Quit</string>
+
+    <string name="main_text1">1. Click the video icon in the menu to open a notification that is linked to youtube</string>
+    <string name="main_text2">2. Here you can open a new activity that has a dialog on the close button</string>
+    <string name="main_text3">3. Here you can create a custom notification and test it</string>
+    <string name="main_text4">4. You can exit the app by using "Quit" in the menu</string>
+
+    <string name="dialog_text">Close this activity using this button</string>
+
+    <string name="open_activity_btn">Open activity</string>
+    <string name="close_activity_btn">Close this activity</string>
+    <string name="custom_notification_btn">Custom notification</string>
+
+    <string name="dialog_title">Close activity?</string>
+    <string name="dialog_exit">Do you really want to close this activity?</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_yes">Yes</string>
+
+    <string name="text_field1">Notification title: </string>
+    <string name="text_field2">Notification text: </string>
+    <string name="text_field3">Website to open: </string>
+
+    <string name="open_custom_notification">Open custom notification</string>
+    <string name="back_to_main_btn">Back</string>
+
+</resources>

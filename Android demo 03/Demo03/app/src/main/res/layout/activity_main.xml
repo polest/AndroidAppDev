@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fi.jamk.arthur.demo03.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text1"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_activity_btn"
+        android:onClick="openNewActivity"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text2"
+        android:id="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text3"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_notification_btn"
+        android:onClick="openNotificationActivity"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text4"
+        android:id="@+id/textView4"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
