@@ -38,7 +38,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_maps);
 
         FetchDataTask task = new FetchDataTask();
-        task.execute("http://ptm.fi/jamk/android/golf_courses.json");
+        task.execute("http://ptm.fi/jamk/android/golfcourses/golf_courses.json");
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
